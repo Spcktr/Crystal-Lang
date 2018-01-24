@@ -1,5 +1,5 @@
 name: hello
-version: 0.1.0
+version: 0.1.1
 
 authors:
   -  <>
@@ -8,6 +8,8 @@ authors:
 dependencies:
   faker:
     github: askn/faker
+  router:
+    github: tbrand/router.cr
 targets:
   hello:
     main: src/hello.cr
