@@ -1,4 +1,7 @@
 require "./hello/*"
+require "faker"
+
+puts Faker::Name.name
 
 # TODO: Write documentation for `Hello`
 module Hello
